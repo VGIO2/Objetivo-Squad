@@ -1,55 +1,30 @@
 /*-------------------->> HEADER <<--------------------*/
-
-header{
-    height: 250px;
-}
-
-.fondo{
-    background: url('../images/equuipo.jpg') no-repeat;
+body{
+    background-image: url(../images/naranja.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 61%;
+    background-position: center;
+    height: 700px;
 }
-
-.logo {
-    text-align: center;
+.logo img {
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
-.logo img{
-    margin-top: 20px;
-    width: 85%;
-}
-
-/*-------------------->> SECTION EJERCICIO <<--------------------*/
-
-.ejercicio{
-    margin-bottom: 40px;
-}
-
-.ejercicio p{
-    padding-top: 20px;
+h3, p{
+    padding-bottom: 10px;
+    font-family: 'Aref Ruqaa', serif;
     font-weight: bold;
-    font-size: 1.1em;
 }
-
-.boton{
-    padding-top: 30px;
+.espacio{
+    margin-top: 10px;
 }
-
-.ejercicio p:nth-child(2){
-    font-size: 2em;
+/*-------------------->> SECTION EJERCICIO <<--------------------*/
+button{
+    margin-top: 20px;
 }
-
-
+#salida{
+    margin-top: 30px;
+    font-size: 18px;
+}
 /*-------------------->> SECTION FOOTER <<--------------------*/
-
-.fondofooter{
-    background-color: #ffb500;
-}
-
-footer p{
-    |position: absolute;
-    |bottom: 0px;
-    padding-top: 15px;
-    color: #fff;
-    text-align: center;
-    font-size: 1.12em;
-}

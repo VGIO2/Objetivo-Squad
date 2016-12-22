@@ -28,8 +28,8 @@ function calcular() {
 
  function calcular()
 {
-    var puntossquad= document.getElementById("puntos_squad").value;
-    var maxpuntos = document.getElementById("max_puntos").value;
+    var puntossquad= document.getElementById("puntossquad").value;
+    var maxpuntos = document.getElementById("maxpuntos").value;
     
     var porcentajesquad=(100 * puntossquad)/maxpuntos;
     
